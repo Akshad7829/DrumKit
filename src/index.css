@@ -1,0 +1,43 @@
+.line{
+  width: 20rem;
+}
+.sub-title{
+  font-size: 1.5rem;
+  margin-left: 6rem;
+}
+.student{
+  width: 20rem;
+}
+.card{
+  margin-left: 6rem;
+padding: 1%;
+  float: left;
+}
+.heading{
+margin-left: 6rem;
+}
+
+/* mobile-view */
+
+@media only screen and (max-device-width: 480px) {
+
+  .heading{
+    margin-left: 2rem;
+    font-size: 2rem;
+    }
+    .card{
+      margin-left:2rem;
+    padding: 1%;
+      float: left;
+    }
+    .line{
+      width: 15rem;
+    }
+    .student{
+      width: 15rem;
+    }
+    .sub-title{
+      font-size: 1.5rem;
+      margin-left: 4rem;
+    }
+}
